@@ -100,7 +100,7 @@ class PluginBlocktypeZotero extends PluginBlocktypeCloud {
         return true;
     }
 
-    public static function get_instance_config_javascript() {
+    public static function get_instance_config_javascript(BlockInstance $instance) {
         return array('js/configform.js');
     }
 
